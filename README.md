@@ -15,7 +15,7 @@ the correct {number}:
 
 		http://www.sikher.com/sql/translation-{number}.sql
 		
-Or...
+	Or...
 
 		http://www.sikher.com/sql/transliteration-{number}.sql
 		
@@ -24,16 +24,9 @@ straight into your `tbltranslation` or `tbltransliteration` tables. If you are
 unsure how to do this, it shall be explained later on in this README.
 
 ## Setup ##
-1. Make sure you first know the path to your MySQL command-line. On Windows,
-if you have XAMPP installed this may be:
-		C:\xampp\mysql\bin\mysql.exe
-On Linux, this will usually be just:
-		mysql
-2. Make sure you know your MySQL username, password and hostname. If working
-locally, your hostname will usually just be `localhost`.
-
-3. Find out the link to your PhpMyAdmin installation. Again if using XAMPP,
-this will usually be `http://localhost/phpmyadmin/`.
+1. Make sure you first know the path to your MySQL command-line. On Windows, if you have XAMPP installed this may be: `C:\xampp\mysql\bin\mysql.exe`. On Linux, this will usually be just `mysql`.
+2. Make sure you know your MySQL username, password and hostname. If working locally, your hostname will usually just be `localhost`.
+3. Find out the link to your PhpMyAdmin installation. Again if using XAMPP, this will usually be `http://localhost/phpmyadmin/`.
 
 ## Installing GurbaniDB using PhpMyAdmin and the MySQL command-line ##
 1. Download the `gurbanidb_core.sql` file which gives you all the 
