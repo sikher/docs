@@ -12,6 +12,7 @@ them in!
 Translation Key or Transliteration Key at the bottom of this README to find
 the correct {number}:
 
+
 		http://www.sikher.com/sql/translation-{number}.sql
 		
 Or...
@@ -25,13 +26,9 @@ unsure how to do this, it shall be explained later on in this README.
 ## Setup ##
 1. Make sure you first know the path to your MySQL command-line. On Windows,
 if you have XAMPP installed this may be:
-
 		C:\xampp\mysql\bin\mysql.exe
-
 On Linux, this will usually be just:
-
 		mysql
-
 2. Make sure you know your MySQL username, password and hostname. If working
 locally, your hostname will usually just be `localhost`.
 
@@ -49,9 +46,7 @@ directory your `gurbanidb_core.sql` file is located in
 4. Then run the following command in the terminal or command prompt, 
 replacing the values with your MySQL connection details (and using the
 path to mysql we defined earlier in the Setup):
-
 * `mysql` -u `username` -p`password` -h `hostname` `database` < gurbanidb_core.sql
-
 5. Let's do a quick data integrity check. Just make sure tblscripture
 has 60,403 rows in phpmyadmin. If it does, let's continue.
 6. Now download the translations or transliterations you want to add to
@@ -59,10 +54,8 @@ your database from `http://www.sikher.com/sql/` and put them in the same
 folder as before (where `gurbanidb_core.sql` is located).
 7. Now run the same command as before, but this time inputting the new
 translation/transliteration file:
-
 * `mysql` -u `username` -p`password` -h `hostname` `database` < translation-`{number}`.sql
 * `mysql` -u `username` -p`password` -h `hostname` `database` < transliteration-`{number}`.sql
-
 8. Ok fantastic! Now time for another data integrity check. Please check each
 transliteration or transliteration has EXACTLY 60,403 rows in phpmyadmin, so if
 you have two translations, this should amount to exactly 120,806 rows.
