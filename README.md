@@ -47,8 +47,8 @@ your database from `http://www.sikher.com/sql/` and put them in the same
 folder as before (where `gurbanidb_core.sql` is located).
 7. Now run the same command as before, but this time inputting the new
 translation/transliteration file:
-* `mysql` -u `username` -p`password` -h `hostname` `database` < translation-`{number}`.sql
-* `mysql` -u `username` -p`password` -h `hostname` `database` < transliteration-`{number}`.sql
+	* `mysql` -u `username` -p`password` -h `hostname` `database` < translation-`{number}`.sql
+	* `mysql` -u `username` -p`password` -h `hostname` `database` < transliteration-`{number}`.sql
 8. Ok fantastic! Now time for another data integrity check. Please check each
 transliteration or transliteration has EXACTLY 60,403 rows in phpmyadmin, so if
 you have two translations, this should amount to exactly 120,806 rows.
