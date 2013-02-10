@@ -39,7 +39,7 @@ directory your `gurbanidb_core.sql` file is located in
 4. Then run the following command in the terminal or command prompt, 
 replacing the values with your MySQL connection details (and using the
 path to mysql we defined earlier in the Setup):
-* `mysql` -u `username` -p`password` -h `hostname` `database` < gurbanidb_core.sql
+	* `mysql` -u `username` -p`password` -h `hostname` `database` < gurbanidb_core.sql
 5. Let's do a quick data integrity check. Just make sure tblscripture
 has 60,403 rows in phpmyadmin. If it does, let's continue.
 6. Now download the translations or transliterations you want to add to
