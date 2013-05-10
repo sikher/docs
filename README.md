@@ -62,7 +62,7 @@ be found in the developer guide here:
 
 		http://media.sikher.com/files/GurbaniDB_Cloud_Documentation.pdf
 
-## Translation Key ##
+### Translation Key ###
 1. Afrikaans
 2. Albanian
 3. Arabic
@@ -117,7 +117,7 @@ be found in the developer guide here:
 52. Welsh
 53. Yiddish
 
-## Transliteration Key ##
+### Transliteration Key ###
 1. Arabic
 2. Armenian
 3. Bengali
