@@ -1,7 +1,10 @@
 # GurbaniDB SQL Dump Readme #
-_Jasdeep Khalsa - 10th of February 2013_
 
-## File Contents ##
+## Link to SQL Files ##
+* Small SQL Files - http://www.sikher.com/sql/ - This is the recommended way of using GurbaniDB because you can customize what you want to include in your database. The rest of this readme is designed only for these small SQL files
+* One Big SQL File - http://sourceforge.net/projects/sikher/files/Database/ - This contains the entire GurbaniDB database and is not recommended as it is _not_ customizable and some developers have experienced problems in using it
+
+## Small SQL File Contents ##
 * `gurbanidb_er.pdf` - This entity-relationship diagram maps all the 
 primary and foreign key relationship between the tables
 * `gurbanidb_core.sql` - This contains all the core gurbanidb tables and
@@ -60,80 +63,83 @@ be found in the developer guide here:
 		http://media.sikher.com/files/GurbaniDB_Cloud_Documentation.pdf
 
 ## Translation Key ##
-1 Afrikaans
-2 Albanian
-3 Arabic
-4 Belarusian
-5 Bulgarian
-6 Catalan
-7 Chinese Simplified
-8 Chinese Traditional
-9 Croatian
-10 Czech
-11 Danish
-12 Dutch
-13 English
-14 Estonian
-15 Filipino
-16 Finnish
-17 French
-18 Galician
-19 German
-20 Greek
-21 Haitian
-22 Hebrew
-23 Hindi
-24 Hungarian
-25 Icelandic
-26 Indonesian
-27 Irish
-28 Italian
-29 Japanese
-30 Korean
-31 Latvian
-32 Lithuanian
-33 Macedonian
-34 Malay
-35 Maltese
-36 Norwegian
-37 Persian
-38 Polish
-39 Portuguese
-40 Romanian
-41 Russian
-42 Serbian
-43 Slovak
-44 Slovenian
-45 Spanish
-46 Swahili
-47 Swedish
-48 Thai
-49 Turkish
-50 Ukrainian
-51 Vietnamese
-52 Welsh
-53 Yiddish
+1. Afrikaans
+2. Albanian
+3. Arabic
+4. Belarusian
+5. Bulgarian
+6. Catalan
+7. Chinese Simplified
+8. Chinese Traditional
+9. Croatian
+10. Czech
+11. Danish
+12. Dutch
+13. English
+14. Estonian
+15. Filipino
+16. Finnish
+17. French
+18. Galician
+19. German
+20. Greek
+21. Haitian
+22. Hebrew
+23. Hindi
+24. Hungarian
+25. Icelandic
+26. Indonesian
+27. Irish
+28. Italian
+29. Japanese
+30. Korean
+31. Latvian
+32. Lithuanian
+33. Macedonian
+34. Malay
+35. Maltese
+36. Norwegian
+37. Persian
+38. Polish
+39. Portuguese
+40. Romanian
+41. Russian
+42. Serbian
+43. Slovak
+44. Slovenian
+45. Spanish
+46. Swahili
+47. Swedish
+48. Thai
+49. Turkish
+50. Ukrainian
+51. Vietnamese
+52. Welsh
+53. Yiddish
 
 ## Transliteration Key ##
-1 Arabic
-2 Armenian
-3 Bengali
-4 Cyrillic
-5 Devanagari
-6 Georgian
-7 Greek
-8 Gujarati
-9 Hangul
-10 Hebrew
-11 Hiragana
-12 Jamo
-13 Kannada
-14 Katakana
-15 Latin
-16 Malayalam
-17 Oryia
-18 Syriac
-19 Tamil
-20 Telugu
-21 Thaana
-22 Thai
+1. Arabic
+2. Armenian
+3. Bengali
+4. Cyrillic
+5. Devanagari
+6. Georgian
+7. Greek
+8. Gujarati
+9. Hangul
+10. Hebrew
+11. Hiragana
+12. Jamo
+13. Kannada
+14. Katakana
+15. Latin
+16. Malayalam
+17. Oryia
+18. Syriac
+19. Tamil
+20. Telugu
+21. Thaana
+22. Thai
+
+## Support ##
+* Email us - info {at} sikher {dot} com
