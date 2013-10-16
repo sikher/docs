@@ -4,6 +4,8 @@
 * Small SQL Files - http://www.sikher.com/sql/ - This is the recommended way of using GurbaniDB because you can customize what you want to include in your database. The rest of this readme is designed only for these small SQL files
 * One Big SQL File - http://sourceforge.net/projects/sikher/files/Database/ - This contains the entire GurbaniDB database and is not recommended as it is _not_ customizable and some developers have experienced problems in using it
 
+_Please note that currently we do not support Shabads/Hymns in our database, but support for this should be coming shortly_ 
+
 ## Small SQL File Contents ##
 * `gurbanidb_er.pdf` - This entity-relationship diagram maps all the 
 primary and foreign key relationship between the tables
