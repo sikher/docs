@@ -4,7 +4,7 @@
 * Small SQL Files - http://www.sikher.com/sql/ - This is the recommended way of using GurbaniDB because you can customize what you want to include in your database. The rest of this readme is designed only for these small SQL files
 * One Big SQL File - http://sourceforge.net/projects/sikher/files/Database/ - This contains the entire GurbaniDB database and is not recommended as it is _not_ customizable and some developers have experienced problems in using it
 
-**Please note:** As of 20th of October 2013, ShabadID is now supported in GurbaniDB. Thanks to Harvinder Singh from [khojgurbani.org](http://www.khojgurbani.org) for this data. ShabadID can be found in _tblscripture_ which is part of [gurbanidb_core.sql](www.sikher.com/sql/gurbanidb_core.sql)
+**Please note:** As of 20th of October 2013, ShabadID is now supported in GurbaniDB. Thanks to Harvinder Singh from [khojgurbani.org](http://www.khojgurbani.org) for this data. ShabadID can be found in _tblscripture_ which is part of [gurbanidb_core.sql](http://www.sikher.com/sql/gurbanidb_core.sql)
 
 ## Small SQL File Contents ##
 * `gurbanidb_er.pdf` - This entity-relationship diagram maps all the 
